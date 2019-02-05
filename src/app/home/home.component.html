@@ -1,0 +1,87 @@
+<div class="jumbotron">
+  <h1 class="display-3">{{ content.title }}</h1>
+  <p class="lead">
+    {{ content.lead }}
+  </p>
+  <hr class="my-4" />
+  <p>
+    {{ content.meta }}
+  </p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" [routerLink]="content.link" role="button">{{
+      content.link_title
+    }}</a>
+  </p>
+</div>
+
+<section class="pricing py-5">
+  <div class="container">
+    <div class="row">
+      <!-- Free Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
+            <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
+            <hr />
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-check success"></i>Single User</li>
+              <li><i class="fa-li fa fa-check success"></i>5GB Storage</li>
+              <li><i class="fa-li fa fa-check success"></i>Unlimited Public Repos</li>
+              <li><i class="fa-li fa fa-check success"></i>Community Assets</li>
+              <li><i class="fa-li fa fa-close danger"></i>Unlimited Private Repos</li>
+              <li><i class="fa-li fa fa-close danger"></i>Dedicated Phone Support</li>
+              <li><i class="fa-li fa fa-close danger"></i>Free Subdomain</li>
+              <li><i class="fa-li fa fa-close danger"></i>Monthly Status Reports</li>
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+          </div>
+        </div>
+      </div>
+      <!-- Plus Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
+            <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
+            <hr />
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-check success"></i><strong>5 Users</strong></li>
+              <li><i class="fa-li fa fa-check success"></i>50GB Storage</li>
+              <li><i class="fa-li fa fa-check success"></i>Unlimited Public Repos</li>
+              <li><i class="fa-li fa fa-check success"></i>Community Assets</li>
+              <li><i class="fa-li fa fa-check success"></i>Unlimited Private Repos</li>
+              <li><i class="fa-li fa fa-check success"></i>Dedicated Phone Support</li>
+              <li><i class="fa-li fa fa-check success"></i>Free Subdomain</li>
+              <li><i class="fa-li fa fa-close danger"></i>Monthly Status Reports</li>
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+          </div>
+        </div>
+      </div>
+      <!-- Pro Tier -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
+            <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
+            <hr />
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-check success"></i><strong>Unlimited Users</strong></li>
+              <li><i class="fa-li fa fa-check success"></i>150GB Storage</li>
+              <li><i class="fa-li fa fa-check success"></i>Unlimited Public Repos</li>
+              <li><i class="fa-li fa fa-check success"></i>Community Assets</li>
+              <li>
+                <i class="fa-li fa fa-check success"></i><strong>Unlimited</strong> Private Repos
+              </li>
+              <li><i class="fa-li fa fa-check success"></i>Dedicated Phone Support</li>
+              <li><i class="fa-li fa fa-check success"></i>Free Subdomain</li>
+              <li><i class="fa-li fa fa-check success"></i>Monthly Status Reports</li>
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

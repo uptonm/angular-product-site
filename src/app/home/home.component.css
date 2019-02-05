@@ -1,0 +1,16 @@
+.success {
+  color: greenyellow;
+}
+
+.danger {
+  color: red;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
